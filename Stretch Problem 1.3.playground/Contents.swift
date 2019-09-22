@@ -16,9 +16,9 @@ let james = Person(firstName: "James", lastName: "Pacheco", age: 26)
 let andrea = Person(firstName: "Andrea", lastName: "Mower", age: 24)
 let carol = Person(firstName: "Rebecca", lastName: "Mordo", age: 30)
 let john = Person(firstName: "John", lastName: "Doey", age: 21)
-let jack = Person(firstName: "Jack", lastName: "Monroe", age: 29)
+let jordan = Person(firstName: "Jordan", lastName: "Lamb", age: 29)
 
-let clubMembers: [Person] = [james, andrea, carol, jack]
+let clubMembers: [Person] = [james, andrea, carol, jordan]
 
 extension Person : Equatable{}
 
@@ -39,5 +39,5 @@ func areYouAMemberOfTheClub(person: Person) -> Bool {
     }
 
 areYouAMemberOfTheClub(person: john)
-areYouAMemberOfTheClub(person: jack)
+areYouAMemberOfTheClub(person: jordan)
 

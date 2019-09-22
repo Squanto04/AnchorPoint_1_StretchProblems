@@ -8,7 +8,6 @@ class Animal {
         self.name = name
         self.diet = diet
     }
-    
     func eat() {
         print("\(name) is eating \(diet)")
     }

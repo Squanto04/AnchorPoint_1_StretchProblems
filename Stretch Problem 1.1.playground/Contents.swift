@@ -14,5 +14,5 @@ class Person {
 
 let thisPerson = Person(name: "Johnny", favoriteColor: "Black", favoriteMovie: nil)
 
-print("\(thisPerson.name)'s favorite color is \(thisPerson.favoriteColor!).")
+print("\(thisPerson.name)s favorite color is \(thisPerson.favoriteColor!).")
 

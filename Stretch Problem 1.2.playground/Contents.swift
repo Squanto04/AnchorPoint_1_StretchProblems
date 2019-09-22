@@ -8,4 +8,4 @@ func stretchOne(x: Int, y: Int) {
     }
 }
 
-stretchOne(x: 3, y: 10)
+stretchOne(x: 4, y: 10)
